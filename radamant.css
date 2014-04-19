@@ -1,0 +1,40 @@
+body, html{
+    margin-top: 30px;
+    text-align:center;
+    vertical-align:center;
+    background-color: #222;
+}
+h1{
+    position:relative;
+    top: 8px;
+    color: #fefefe;
+    font-family: Georgia;
+    font-size: 70px;
+    font-weight: bold;
+    margin: auto auto -30px;
+    z-order: 100;
+}
+h1 span.adam{
+    color: rgb(230,200,200);
+}
+
+img {
+    border-radius: 15px;
+    z-order:0;
+}
+
+h1 {
+    animation: rainbow .6s infinite;
+    -webkit-animation: rainbow .5s infinite;
+    text-shadow: #03f 2px 2px 8px;
+}
+@keyframes rainbow {
+    0% { text-shadow: #03f 2px 2px 8px;}
+    33% { text-shadow: #0f3 2px 2px 8px;}
+    66% { text-shadow: #f03 2px 2px 8px;}
+}
+@-webkit-keyframes rainbow {
+    0% { text-shadow: #03f 2px 2px 8px;}
+    33% { text-shadow: #0f3 2px 2px 8px;}
+    66% { text-shadow: #f03 2px 2px 8px;}
+}
